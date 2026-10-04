@@ -1,0 +1,18 @@
+Example page — standalone bundle
+================================
+
+The site's home page rebuilt from its own components and archived content; runs on its own.
+Node.js 18 or newer is the only requirement.
+
+Windows:      double-click start.cmd   (opens a server window and the browser)
+              or, in a terminal inside this folder:   node tools\serve.mjs 8786
+macOS/Linux:  sh start.sh              or   node tools/serve.mjs 8786
+
+Then open  http://127.0.0.1:8786/examples/portfolio/
+           ?tree=m forces the phone tree, ?tree=pc the desktop tree.
+
+The page is served, not opened as a file: the site's stylesheets reference /_nuxt/… by absolute path.
+Ctrl+C in the server window stops it. examples/portfolio/README.md explains the parts.
+
+中文速览：Windows 双击 start.cmd，或在本文件夹里运行 node tools\serve.mjs 8786，
+然后打开 http://127.0.0.1:8786/examples/portfolio/ 。?tree=m 强制手机树。
